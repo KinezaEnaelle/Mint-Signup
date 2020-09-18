@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #ECEEF1;
+    background-color:#ECEEF1;
     font-weight: 400;
 }
-header{ display: flex;
+header { 
+    display: flex;
     width: 100%;
     padding: 10px 30px 0 0;
     justify-content: flex-end;
@@ -15,13 +16,12 @@ header{ display: flex;
     font-size: 13px;
 }
 
-
 header button {
-    background-color: #0077C5;
+    background-color:#0077c5;
     border-radius: 5px;
-    border: 1px solid #000000;
-    color: #ffffff;
-    padding: .4rem 1rem;
+    border: 1px solid #000;
+    color:#fff;
+    padding: 0.4rem 1rem;
     margin: 0 0 0 10px;
 }
 
@@ -37,10 +37,9 @@ main {
 }
 
 main section {
-    background-color: #ffffff;
+    background-color:#fff;
     height: auto;
-    border: .5px solid #cccccc;
-    
+    border: 0.5px solid #ccc;
     padding: 2rem;
     max-width: 400px;
 }
@@ -50,7 +49,7 @@ section h1 {
     line-height: 3.5rem;
 }
 .wrap {
-    border: .5px solid #cccccc;
+    border: 0.5px solid #ccc;
     max-width: 400px;
     margin: 10px 0 20px 0;
 }
