@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="eng">
-<meta charset="UTF-8">
-<meta name="author" content="Uchenna and Iris">
-<meta name="viewport" content="width=device-width, initial-size=1.0">
-<meta name="keyword" content="SignUp clone">
-<link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8" />
+<meta name="author" content="Uchenna and Iris" />
+<meta name="viewport" content="width=device-width, initial-size=1.0" />
+<meta name="keyword" content="SignUp clone" />
+<link rel="stylesheet" href="assets/css/style.css" />
 <script src="https://use.fontawesome.com/018e0d5e7a.js"></script>
 <link
     href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
 <title>Mint Sing-up Page</title>
 
 <body>
@@ -19,42 +19,59 @@
                 <a href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D05e5f79c-e029-4997-a5a2-0e39e8c3a1b1%26adobe_mc%3DMCMID%253D01118330359371472344012076105835982965%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1600362777%26ivid%3D05e5f79c-e029-4997-a5a2-0e39e8c3a1b1"
                     target="blank">I forgot my User or Password</a>
             </div>
-
         </nav>
-        <button type="submit"> <i class="fa fa-lock"></i> &nbsp; Sign In</button>
+        <button type="submit" class="_button">
+            <i class="fa fa-lock"></i> &nbsp; Sign In
+        </button>
     </header>
     <main>
         <div>
             <div class="logo">
-                <div class="intuit"><img src="assets/images/intuit-logo.PNG" alt="intut logo"></div>
+                <div class="intuit">
+                    <img src="assets/images/intuit-logo.PNG" alt="intut logo" />
+                </div>
                 <picture>
-                    <img src="assets/images/mint-logo.PNG" alt="logo" class="mint">
+                    <img src="assets/images/mint-logo.PNG" alt="logo" class="mint" />
                 </picture>
                 <picture>
-                    <img src="assets/images/quickbooks-logo.PNG" alt="logo">
+                    <img src="assets/images/quickbooks-logo.PNG" alt="logo" />
                 </picture>
                 <picture>
-                    <img src="assets/images/logo-turbotax.PNG" alt="logo" class="turbo">
+                    <img src="assets/images/logo-turbotax.PNG" alt="logo" class="turbo" />
                 </picture>
             </div>
             <div class="wrap">
-                <section>
-                    <h1 style="text-align: center;">Create an Intuit account</h1>
-                    <p style="text-align: center;">One account for everything Intuit, including Mint.</p>
-                    <p style="text-align: center;"><a href="https://accounts-help.intuit.com/app/intuit/1995107"
-                            target="blank">Learn More</a></p>
+                <section class="main_section">
+                    <h1>Create an Intuit account</h1>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <p>
+                        <a href="https://accounts-help.intuit.com/app/intuit/1995107" target="blank">Learn More</a>
+                    </p>
                     <div><label for="email">Email Address</label></div>
-
-                    <input type="email" name="email" required>
+                    <input type="email" name="email" required />
                     <div><label for="phone">Phone (recommended)</label></div>
 
-                    <input type="tel" name="phone">
+                    <input type="tel" name="phone" />
+                    <p class="info">
+                        Standard call, messaging or data rates may apply.
+                    </p>
+                    <div><label for="password">Password</label></div>
+
+                    <input type="password" name="password" required />
+
+                    <input type="email" name="email" id="email" required>
+                    <div><label for="phone">Phone (recommended)</label></div>
+
+                    <input type="tel" name="phone" id="phone">
                     <p class="info">Standard call, messaging or data rates may apply.</p>
                     <div><label for="password">Password</label></div>
 
-                    <input type="password" name="password" required>
+                    <input type="password" name="password" id="password" required>
+
                     <div>
-                        <button type="submit"> <i class="fa fa-lock"></i> &nbsp; Create Account</button>
+                        <button type="submit">
+                            <i class="fa fa-lock"></i> &nbsp; Create Account
+                        </button>
                     </div>
 
                     <p class="privacy">
@@ -73,13 +90,16 @@
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <a href="https://www.intuit.com/legal/" target="blank">Legal</a>
         <a href="https://www.intuit.com/privacy/" target="blank">Privacy</a>
         <a href="https://security.intuit.com/" target="blank">Security</a>
-        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
-            trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        <p>
+            © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+            TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options
+            subject to change without notice.
+        </p>
     </footer>
 </body>
 
