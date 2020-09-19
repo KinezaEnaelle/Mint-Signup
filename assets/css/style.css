@@ -99,7 +99,7 @@ section>div {
     height: auto;
 }
 
-section button {
+.main_ssection button {
     background-color: #0077c5;
     border: 0.5px solid #ccc;
     width: 100%;
