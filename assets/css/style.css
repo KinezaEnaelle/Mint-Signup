@@ -1,151 +1,151 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #eceef1;
-    font-weight: 400;
+  background-color: #eceef1;
+  font-weight: 400;
 }
 
 header {
-    display: flex;
-    width: 100%;
-    padding: 10px 30px 0 0;
-    justify-content: flex-end;
-    color: dimgray;
-    font-size: 13px;
+  display: flex;
+  width: 100%;
+  padding: 10px 30px 0 0;
+  justify-content: flex-end;
+  color: dimgray;
+  font-size: 13px;
 }
 
 header ._button {
-    background-color: #0077c5;
-    border-radius: 5px;
-    border: 1px solid#000;
-    color: #fff;
-    padding: 0.4rem 1rem;
-    margin: 0 0 0 10px;
+  background-color: #0077c5;
+  border-radius: 5px;
+  border: 1px solid#000;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  margin: 0 0 0 10px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 main .main_section {
-    background-color: #fff;
-    height: auto;
-    border: 0.5px solid #ccc;
-    padding: 2rem;
-    max-width: 400px;
+  background-color: #fff;
+  height: auto;
+  border: 0.5px solid #ccc;
+  padding: 2rem;
+  max-width: 400px;
 }
 
 section h1 {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Oxygen,
-        Ubuntu,
-        Cantarell,
-        "Open Sans",
-        "Helvetica Neue",
-        sans-serif;
-    font-weight: 400;
-    line-height: 3.5rem;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-weight: 400;
+  line-height: 3.5rem;
 }
 
 .wrap {
-    border: 0.5px solid #ccc;
-    max-width: 400px;
-    margin: 10px 0 20px 0;
+  border: 0.5px solid #ccc;
+  max-width: 400px;
+  margin: 10px 0 20px 0;
 }
 
 .logo {
-    text-align: center;
+  text-align: center;
 }
 
 .logo img {
-    width: 134px;
-    height: 40px;
-    text-align: center;
+  width: 134px;
+  height: 40px;
+  text-align: center;
 }
 
 .logo .mint {
-    width: 90px;
-    height: 40px;
+  width: 90px;
+  height: 40px;
 }
 
 .logo .turbo {
-    width: 110px;
-    height: 40px;
-    padding-bottom: 5px;
+  width: 110px;
+  height: 40px;
+  padding-bottom: 5px;
 }
 
 .intuit {
-    text-align: center;
-    padding-bottom: 15px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
-section>div {
-    padding: 1.4rem 0 0.4rem 0;
-    height: auto;
+section > div {
+  padding: 1.4rem 0 0.4rem 0;
+  height: auto;
 }
 
-.main_ssection button {
-    background-color: #0077c5;
-    border: 0.5px solid #ccc;
-    width: 100%;
-    border-radius: 4px;
-    padding: 1rem 0;
-    color: #fff;
-    font-size: large;
-    font-weight: lighter;
+section button {
+  background-color: #0077c5;
+  border: 0.5px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 0;
+  color: #fff;
+  font-size: large;
+  font-weight: lighter;
 }
 
 input {
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    border-radius: 3px;
-    width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 3px;
+  width: 100%;
 }
 
 .captcha {
-    text-align: center;
-    background-color: #eceef1;
-    font-size: 10px;
-    margin-bottom: 5px;
-    padding: 20px 0;
-    color: dimgray;
+  text-align: center;
+  background-color: #eceef1;
+  font-size: 10px;
+  margin-bottom: 5px;
+  padding: 20px 0;
+  color: dimgray;
 }
 
 .info {
-    font-size: 10px;
-    font-weight: lighter;
-    padding: 4px 0;
+  font-size: 10px;
+  font-weight: lighter;
+  padding: 4px 0;
 }
 
 .privacy {
-    font-size: 14px;
-    text-align: center;
-    margin: 10px 25px;
-    line-height: 1.2rem;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 25px;
+  line-height: 1.2rem;
 }
 
 .footer {
-    text-align: center;
-    padding: 25px 200px;
-    font-size: 13px;
-    line-height: 1.5em;
+  text-align: center;
+  padding: 25px 200px;
+  font-size: 13px;
+  line-height: 1.5em;
 }
 
 .footer a {
-    padding: 0 4px;
+  padding: 0 4px;
 }
