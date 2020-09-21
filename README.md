@@ -43,7 +43,7 @@ Feature requests and issues are most welcome.
 
 ## Live Demo 
 
-[Live Demo](https://rawcdn.githack.com/KinezaEnaelle/Mint-Signup/a945d8e625863ffe14e6a76fa53725a5b92dc06a/index.html)
+[Live Demo](https://rawcdn.githack.com/KinezaEnaelle/Mint-Signup/27085700cd7e3f65f688edde28c13b23c1c21e25/index.html)
 
 ## Show your support
 
