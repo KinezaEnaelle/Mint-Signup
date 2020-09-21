@@ -39,7 +39,7 @@ For one to get started, just clone the repository and open index.html file in yo
 
 ## Contributions
 
-Faeture requests and issues are most welcome.
+Feature requests and issues are most welcome.
 
 ## Live Demo 
 
