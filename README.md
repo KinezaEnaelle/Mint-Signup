@@ -29,7 +29,7 @@ For one to get started, just clone the repository and open index.html file in yo
 - Github: [uchennaanya](https://github.com/uchennaanya)
 - Twitter:[@matinsanya19](https://twitter.com/martinsanya19)
 - Linkedin: [Uchenna Martin Anya](https://www.linkedin.com/in/uchenna-anya/)
-,   Q1234
+
 
 **Iris Enaelle Kineza** 
 
