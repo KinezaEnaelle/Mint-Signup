@@ -43,7 +43,7 @@ Faeture requests and issues are most welcome.
 
 ## Live Demo 
 
-https://rawcdn.githack.com/KinezaEnaelle/Mint-Signup/a945d8e625863ffe14e6a76fa53725a5b92dc06a/index.html
+[Live Demo](https://rawcdn.githack.com/KinezaEnaelle/Mint-Signup/a945d8e625863ffe14e6a76fa53725a5b92dc06a/index.html)
 
 ## Show your support
 
